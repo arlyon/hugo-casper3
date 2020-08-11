@@ -1,4 +1,5 @@
 @import "variables";
+@import "matrix";
 
 a,
 abbr,
@@ -2107,6 +2108,13 @@ body {
   width: 110px;
   height: 110px;
   box-shadow: 0 0 0 6px hsla(0, 0%, 100%, 0.1);
+}
+.site-landing {
+  margin: 5em 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .author-header-content .author-bio {
   z-index: 10;
